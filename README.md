@@ -17,11 +17,14 @@ public class MagicEightBall {
 		randomAnswer();
 	}
 
+	// prompts the user for a questions and
+	// returns it
 	private static String prompt(Scanner scan){
 		System.out.println("Ask a question, and then press enter. . .");
 		return scan.nextLine();
 	}
 	
+	// this method will choose an answer randomly
 	private static void randomAnswer() {
 		// TODO Auto-generated method stub
 		
